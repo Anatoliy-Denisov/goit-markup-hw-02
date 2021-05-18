@@ -12,7 +12,9 @@ body {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  font-size: 14px;
 }
+
 .list {
   list-style: none;
 }
@@ -36,7 +38,6 @@ body {
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -50,7 +51,6 @@ body {
   text-decoration: none;
   color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -94,11 +94,9 @@ body {
 .content-list .content-list-title {
   color: var(--title-text-color);
   font-weight: bold;
-  font-size: 14px;
   line-height: 1.14;
 }
 .content-list .content-text {
-  font-size: 14px;
   line-height: 1.71;
 }
 
@@ -141,12 +139,10 @@ body {
 }
 .address-main {
   color: var(--white-color);
-  font-size: 14px;
   line-height: 1.71;
 }
 .footer-contact-list .footer-contact {
   text-decoration: none;
-  font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
